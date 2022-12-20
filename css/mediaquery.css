@@ -1,0 +1,43 @@
+/* per tablet */
+
+@media screen and (max-width:768px) {
+
+    .container{
+        max-width: 100%;
+    }
+    
+    .container h2{
+        color: red;
+    }
+    
+}
+
+/* per smartphone */
+
+@media screen and (max-width:480px){
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        /* max-width: 100%; */
+    }
+
+    .container .row{
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .steps .container .col{
+      width: 100%;
+    }
+
+    .steps .container .col .card{
+        padding: 2rem 0;
+    }
+    .container h2{
+        color: green;
+    }
+}
+    
